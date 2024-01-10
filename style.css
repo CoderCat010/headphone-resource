@@ -5,11 +5,15 @@
     font-family: 'Kanit', sans-serif;
 }
 
-header{
+body{
     background-color: #0f0f10;
+}
+
+header{
     width: 100%;
     height: 100vh;
-    color: white;
+    color: #d8d8d8;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -29,6 +33,64 @@ header{
 .nav-ul {
     display: flex;
     list-style: none;
-    gap: 100px;
+    gap: 80px;
     font-size: 18px;
+}
+
+.nav-ul li{
+    cursor: pointer;
+}
+
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.banner img{
+    width: 300px;
+    height: 700px;
+    position: relative;
+    bottom: 230px;
+}
+
+.banner-title h1 {
+   font-size: 150px;
+   background: -webkit-linear-gradient(#919191, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.banner-title h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.banner-title h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d8d8d8;
+}
+
+.banner-title p{
+    width: 400px;
+    padding-top: 20px;
+    color: #8b8b8b;
+    font-size: 18px;
+}
+
+.bnr-button{
+    background-color: #000;
+    width: 215px;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+    margin-top: 45px;
 }
